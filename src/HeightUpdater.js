@@ -16,7 +16,7 @@ class HeightUpdater extends Component {
 		}
 	}
 
-	componentWillMount(){
+	UNSAFE_componentWillMount(){
 		window.addEventListener('resize', this.onWindowResize);
 	}
 
